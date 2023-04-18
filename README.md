@@ -1,4 +1,4 @@
-# mypoj
+# Catalogue_App
 
 A new Flutter project.
 
