@@ -41,13 +41,15 @@ class _HomePageState extends State<HomePage> {
         child: Container(
           padding: Vx.m32,
               child: Column(
+
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children:  [
                     const CatalogHeader(),
                     if(CatalogModel.items!=null && CatalogModel.items.isNotEmpty)
-                        const CatalogList().expand()
+                        const CatalogList().p16().expand()
                     else
                       CircularProgressIndicator().centered().py16().expand(),
+
 
                   ],
               ),
