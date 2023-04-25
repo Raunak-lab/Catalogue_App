@@ -30,7 +30,7 @@ import 'package:velocity_x/velocity_x.dart';
        elevation: 0.0,
        iconTheme: IconThemeData(color: Colors.white),
        titleTextStyle:TextStyle(
-           color:Colors.black,
+           color:Colors.white,
            fontWeight: FontWeight.bold,
            fontSize: 22
        ) ,

@@ -17,12 +17,12 @@ import 'home_page.dart';
       @override
       Widget build(BuildContext context) {
         return MaterialApp(
-          themeMode: ThemeMode.dark,
+          themeMode: ThemeMode.light,
           theme: MyTheme.lightTheme(context),
           darkTheme: MyTheme.darkTheme(context),
           debugShowCheckedModeBanner: false,
           routes: {
-            "/" :(context)=> const HomePage(),
+            "/" :(context)=> const LoginPage(),
             MyRoutes.homeRoute :(context)=>HomePage(),
             MyRoutes.loginRoute:(context)=>LoginPage(),
             MyRoutes.cartRoute:(context)=>CartPage()
