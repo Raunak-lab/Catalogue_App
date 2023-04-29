@@ -4,13 +4,12 @@ import 'package:mypoj/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mypoj/utils/routes.dart';
 import 'package:mypoj/widgets/themes.dart';
-
-
-
+import 'package:velocity_x/velocity_x.dart';
+import '../core/store.dart';
 import 'home_page.dart';
 
     void main(){
-    runApp(MyApp());
+    runApp(VxState(store:MyStore(), child:MyApp()));
     }
 
     class MyApp extends StatelessWidget {
