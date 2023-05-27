@@ -49,7 +49,10 @@ To remove an item from the cart, navigate to the cart screen by tapping on the c
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request to the GitHub repository.
 
-When contributing to this project, please follow the code of conduct.
+## View Counter
+
+![Visitor Count](https://profile-counter.glitch.me/{Raunak-lab}/count.svg)
+
 
 ## Acknowledgments
 Flutter: https://flutter.dev
